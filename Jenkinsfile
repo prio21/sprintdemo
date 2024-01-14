@@ -4,6 +4,6 @@ node {
   }
 
   stage('Compile-Package'){
-    sh 'mvn pachage'
+    sh 'mvn package'
   }
 }
