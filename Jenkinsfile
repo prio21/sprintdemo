@@ -1,9 +1,9 @@
 node {
-  stage('SCM Checkout'){
+  stage('SCM Checkout') {
     git 'https://github.com/prio21/sprintdemo.git'
   }
 
-  stage('Compile-Package'){
-    sh 'mvn package'
+  stage('Compile-Package') {
+    bat 'mvn package'
   }
 }
